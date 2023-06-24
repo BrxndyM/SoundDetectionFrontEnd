@@ -1,0 +1,130 @@
+/* Global */
+body {
+ background-color: #FFEDCC!important;
+  
+}
+.regContainer {
+  /* background-color: #fdd08e; */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0.5, 0, 0.8);
+} 
+
+/* Form */
+.regContainer {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inputag {
+  margin-top: 5px;
+  /* background-color: #ffeaa7; */
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.inputag:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ffa500;
+}
+
+.agreement {
+  margin-left: 4px;
+  color: #e67e22;
+}
+
+.card {
+  width: 100%;
+  /* background-color: #FFEDCC; */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-size: 24px;
+  
+}
+
+/* Buttons */
+.button {
+  margin-left: 10px;
+}
+
+.ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #ff8c00;
+  border-color: #ff8c00;
+}
+
+.ant-btn-dangerous:hover,
+.ant-btn-dangerous:focus {
+  background-color: #ff6347;
+  border-color: #ff6347;
+}
+
+.ant-btn {
+  background-color: #e67e22;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+.ant-btn:hover {
+  background-color: #ffa500;
+}
+
+/* Form Labels */
+.ant-form-item-label {
+  color: #e67e22;
+}
+
+/* Form Validation */
+.ant-form-item-explain-error {
+  color: #ff6347;
+}
+
+/* Checkbox */
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner {
+  border-color: #e67e22;
+}
+
+.ant-checkbox:hover .ant-checkbox-inner:after {
+  border-color: #e67e22;
+}
+
+.ant-checkbox-checked:hover .ant-checkbox-inner {
+  background-color: #e67e22;
+  border-color: #e67e22;
+}
+
+.ant-checkbox-checked:hover .ant-checkbox-inner:after {
+  border-color: #e67e22;
+}
+
+.ant-checkbox-input:focus + .ant-checkbox-inner {
+  border-color: #e67e22;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  border-color: white;
+}
+
+.ant-checkbox-inner {
+  border-color: #e67e22;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner:after {
+  background-color: #e67e22;
+}

@@ -1,0 +1,89 @@
+.background {
+  /* background-color: #ffffd5; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  /* background-color: #fdd08e; */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 5px 15px rgba(0, 0.5, 0, 0.8);
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+}
+
+.loginform h3, h2  {
+  color: #e76f51;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inputag {
+  /* background-color: #FFF2CC; */
+  border-radius: 5px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.inputag:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #FF6600;
+}
+
+.site-form-item-icon {
+  color: #ff9500;
+}
+
+.check {
+  color: black;
+  margin-bottom: 10px;
+}
+
+.loginforgot {
+  float: right;
+  color: black;
+  margin-top: -18px;
+}
+
+.loginbutton:hover {
+  background-color: #FFB347;
+}
+
+.regLink {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.regLink a {
+  color: #000000;
+  font-weight: bold;
+}
+
+
+#inputag {
+  background-color: #fbe7c9;
+}
+
+#loginbutton {
+  background-color: #e76f51;
+  border-radius: 5px;
+  border: none;
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+}
+
+#loginbutton:hover {
+  background-color: #ee4014;
+}

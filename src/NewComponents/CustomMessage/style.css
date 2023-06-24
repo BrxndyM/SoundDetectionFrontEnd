@@ -1,0 +1,113 @@
+.custom-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  h2, h3 {
+    text-align: center;
+  }
+  
+  .message-section, .trigger-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .message-textarea {
+    width: 400px;
+    height: 100px;
+  }
+  
+  .recording-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .record-button, .stop-button, .save-button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .record-button:hover, .stop-button:hover, .save-button:hover {
+    background-color: #e76f51;
+  }
+  
+  .audio-player {
+    width: 200px;
+  }
+  
+  .saved-messages, .saved-triggers {
+    max-width: 400px;
+  }
+  
+  .saved-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e76f51;
+  }
+  
+  .next-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #e76f51;
+  }
+  .saved-messages-container, .saved-triggers-container {
+    max-width: 400px;
+  }
+  
+  .next-button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    background-color: #e76f51;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 20px; /* Added margin-right to move the button to the far right end */
+  }
+  
+  
